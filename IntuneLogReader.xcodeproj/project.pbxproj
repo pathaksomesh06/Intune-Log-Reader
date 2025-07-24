@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FBBC50EC2E312C5F0081E008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBC50D52E312C5D0081E008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBC50DC2E312C5D0081E008;
+			remoteInfo = IntuneLogReader;
+		};
+		FBBC50F62E312C5F0081E008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBC50D52E312C5D0081E008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBC50DC2E312C5D0081E008;
+			remoteInfo = IntuneLogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBBC50DD2E312C5D0081E008 /* IntuneLogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntuneLogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBC50EB2E312C5F0081E008 /* IntuneLogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntuneLogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBC50F52E312C5F0081E008 /* IntuneLogReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntuneLogReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FBBC50DF2E312C5D0081E008 /* IntuneLogReader */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntuneLogReader;
+			sourceTree = "<group>";
+		};
+		FBBC50EE2E312C5F0081E008 /* IntuneLogReaderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntuneLogReaderTests;
+			sourceTree = "<group>";
+		};
+		FBBC50F82E312C5F0081E008 /* IntuneLogReaderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntuneLogReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBC50DA2E312C5D0081E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50E82E312C5F0081E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50F22E312C5F0081E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBC50D42E312C5D0081E008 = {
+			isa = PBXGroup;
+			children = (
+				FBBC50DF2E312C5D0081E008 /* IntuneLogReader */,
+				FBBC50EE2E312C5F0081E008 /* IntuneLogReaderTests */,
+				FBBC50F82E312C5F0081E008 /* IntuneLogReaderUITests */,
+				FBBC50DE2E312C5D0081E008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBC50DE2E312C5D0081E008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC50DD2E312C5D0081E008 /* IntuneLogReader.app */,
+				FBBC50EB2E312C5F0081E008 /* IntuneLogReaderTests.xctest */,
+				FBBC50F52E312C5F0081E008 /* IntuneLogReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBC50DC2E312C5D0081E008 /* IntuneLogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBC50FF2E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReader" */;
+			buildPhases = (
+				FBBC50D92E312C5D0081E008 /* Sources */,
+				FBBC50DA2E312C5D0081E008 /* Frameworks */,
+				FBBC50DB2E312C5D0081E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FBBC50DF2E312C5D0081E008 /* IntuneLogReader */,
+			);
+			name = IntuneLogReader;
+			packageProductDependencies = (
+			);
+			productName = IntuneLogReader;
+			productReference = FBBC50DD2E312C5D0081E008 /* IntuneLogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBBC50EA2E312C5F0081E008 /* IntuneLogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBC51022E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReaderTests" */;
+			buildPhases = (
+				FBBC50E72E312C5F0081E008 /* Sources */,
+				FBBC50E82E312C5F0081E008 /* Frameworks */,
+				FBBC50E92E312C5F0081E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBC50ED2E312C5F0081E008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBBC50EE2E312C5F0081E008 /* IntuneLogReaderTests */,
+			);
+			name = IntuneLogReaderTests;
+			packageProductDependencies = (
+			);
+			productName = IntuneLogReaderTests;
+			productReference = FBBC50EB2E312C5F0081E008 /* IntuneLogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBBC50F42E312C5F0081E008 /* IntuneLogReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBC51052E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReaderUITests" */;
+			buildPhases = (
+				FBBC50F12E312C5F0081E008 /* Sources */,
+				FBBC50F22E312C5F0081E008 /* Frameworks */,
+				FBBC50F32E312C5F0081E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBC50F72E312C5F0081E008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBBC50F82E312C5F0081E008 /* IntuneLogReaderUITests */,
+			);
+			name = IntuneLogReaderUITests;
+			packageProductDependencies = (
+			);
+			productName = IntuneLogReaderUITests;
+			productReference = FBBC50F52E312C5F0081E008 /* IntuneLogReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBC50D52E312C5D0081E008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FBBC50DC2E312C5D0081E008 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FBBC50EA2E312C5F0081E008 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FBBC50DC2E312C5D0081E008;
+					};
+					FBBC50F42E312C5F0081E008 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FBBC50DC2E312C5D0081E008;
+					};
+				};
+			};
+			buildConfigurationList = FBBC50D82E312C5D0081E008 /* Build configuration list for PBXProject "IntuneLogReader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBC50D42E312C5D0081E008;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBBC50DE2E312C5D0081E008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBC50DC2E312C5D0081E008 /* IntuneLogReader */,
+				FBBC50EA2E312C5F0081E008 /* IntuneLogReaderTests */,
+				FBBC50F42E312C5F0081E008 /* IntuneLogReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBC50DB2E312C5D0081E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50E92E312C5F0081E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50F32E312C5F0081E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBC50D92E312C5D0081E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50E72E312C5F0081E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBC50F12E312C5F0081E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBC50ED2E312C5F0081E008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBC50DC2E312C5D0081E008 /* IntuneLogReader */;
+			targetProxy = FBBC50EC2E312C5F0081E008 /* PBXContainerItemProxy */;
+		};
+		FBBC50F72E312C5F0081E008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBC50DC2E312C5D0081E008 /* IntuneLogReader */;
+			targetProxy = FBBC50F62E312C5F0081E008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBBC50FD2E312C5F0081E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBC50FE2E312C5F0081E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FBBC51002E312C5F0081E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntuneLogReader/IntuneLogReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intune Log Reader";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBBC51012E312C5F0081E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntuneLogReader/IntuneLogReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intune Log Reader";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBBC51032E312C5F0081E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntuneLogReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntuneLogReader";
+			};
+			name = Debug;
+		};
+		FBBC51042E312C5F0081E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntuneLogReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntuneLogReader";
+			};
+			name = Release;
+		};
+		FBBC51062E312C5F0081E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IntuneLogReader;
+			};
+			name = Debug;
+		};
+		FBBC51072E312C5F0081E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJ3W53UDG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklabs.IntuneLogReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IntuneLogReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBC50D82E312C5D0081E008 /* Build configuration list for PBXProject "IntuneLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBC50FD2E312C5F0081E008 /* Debug */,
+				FBBC50FE2E312C5F0081E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBC50FF2E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBC51002E312C5F0081E008 /* Debug */,
+				FBBC51012E312C5F0081E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBC51022E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBC51032E312C5F0081E008 /* Debug */,
+				FBBC51042E312C5F0081E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBC51052E312C5F0081E008 /* Build configuration list for PBXNativeTarget "IntuneLogReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBC51062E312C5F0081E008 /* Debug */,
+				FBBC51072E312C5F0081E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBC50D52E312C5D0081E008 /* Project object */;
+}

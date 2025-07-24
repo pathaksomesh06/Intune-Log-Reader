@@ -1,0 +1,20 @@
+2024-01-15 10:23:43.123 [INFO] [System] Service started successfully
+2024-01-15 10:23:44.456 [WARNING] [Auth] Token refresh delayed - retrying in 5 seconds
+2024-01-15 10:23:45.789 [ERROR] [MDM] Failed to sync policy - network timeout after 30 seconds
+2024-01-15 10:23:46.012 [INFO] [MDM] Starting policy sync for device DEVICE001
+2024-01-15 10:23:47.234 [DEBUG] [Network] HTTP request to https://api.manage.microsoft.com/v1/sync
+2024-01-15 10:23:48.567 [ERROR] [Auth] Authentication failed - invalid token
+2024-01-15 10:23:49.890 [INFO] [Auth] Attempting token refresh
+2024-01-15 10:23:50.123 [WARNING] [MDM] Policy application partially failed for 3 policies
+2024-01-15 10:23:51.456 [INFO] [System] Background sync scheduled for 10:30:00
+2024-01-15 10:23:52.789 [ERROR] [Compliance] Device compliance check failed - encryption not enabled
+2024-01-15 10:23:53.012 [INFO] [MDM] Successfully applied 12 of 15 policies
+2024-01-15 10:23:54.345 [DEBUG] [Cache] Clearing expired cache entries
+2024-01-15 10:23:55.678 [WARNING] [Network] High latency detected - 2500ms response time
+2024-01-15 10:23:56.901 [INFO] [System] Service health check passed
+2024-01-15 10:23:57.234 [ERROR] [MDM] Configuration profile installation failed - code 0x80070005
+2024-01-15 10:23:58.567 [INFO] [Auth] Successfully authenticated with Azure AD
+2024-01-15 10:23:59.890 [WARNING] [Storage] Log file size approaching limit - 98MB of 100MB used
+2024-01-15 10:24:00.123 [INFO] [System] Starting scheduled background sync
+2024-01-15 10:24:01.456 [ERROR] [MDM] Unable to retrieve device configuration - server returned 503
+2024-01-15 10:24:02.789 [INFO] [Compliance] Running compliance evaluation
