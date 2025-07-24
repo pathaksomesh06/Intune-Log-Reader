@@ -1,6 +1,6 @@
 # IntuneLogReader
 
-A professional macOS tool for reading and analyzing Microsoft Intune MDM logs with real-time monitoring capabilities.
+A macOS tool for reading and analyzing Microsoft Intune MDM logs with real-time monitoring capabilities.
 
 ## Features
 
@@ -13,6 +13,12 @@ A professional macOS tool for reading and analyzing Microsoft Intune MDM logs wi
 - **Keyboard shortcuts** - Full keyboard navigation support
 
 ## Screenshots
+<img width="1312" height="964" alt="Screenshot 2025-07-24 at 13 42 12" src="https://github.com/user-attachments/assets/4e2298c5-bcab-4e98-af97-4a9ad0d2d063" />
+<img width="1312" height="964" alt="Screenshot 2025-07-24 at 13 42 15" src="https://github.com/user-attachments/assets/b2d5784d-167b-4a1a-a4f4-5e369afcc358" />
+<img width="1312" height="964" alt="Screenshot 2025-07-24 at 13 42 46" src="https://github.com/user-attachments/assets/eb70bb98-150e-4cb0-818d-3be6935b8649" />
+<img width="1191" height="841" alt="Screenshot 2025-07-24 at 13 42 59" src="https://github.com/user-attachments/assets/4f2bf60a-521e-4733-8d62-5b231ff40476" />
+<img width="1312" height="964" alt="Screenshot 2025-07-24 at 13 43 10" src="https://github.com/user-attachments/assets/cc0a4048-b55a-44ed-8002-8ddea8f7f4e5" />
+<img width="1312" height="964" alt="Screenshot 2025-07-24 at 13 43 33" src="https://github.com/user-attachments/assets/fa885a2b-8600-40df-92b8-57f79720b5d5" />
 
 The application features a three-panel layout:
 - **Left Sidebar**: File information and quick statistics
@@ -92,26 +98,6 @@ The application parses Intune log files with the following format:
 - Intune logs are typically located at: `/Library/Logs/Microsoft/Intune/`
 - The application automatically detects and loads the most recent log file
 
-## Development
-
-### Project Structure
-```
-IntuneLogReader/
-├── App/
-│   └── IntuneLogReaderApp.swift
-├── Models/
-│   └── LogEntry.swift
-├── Services/
-│   └── LogFileService.swift
-├── Views/
-│   ├── Main/
-│   │   ├── MainView.swift
-│   │   ├── SidebarView.swift
-│   │   ├── LogListView.swift
-│   │   └── DetailView.swift
-│   └── WelcomeView.swift
-└── Assets.xcassets/
-```
 
 ### Key Components
 - **LogFileService**: Handles log file parsing and real-time monitoring
@@ -119,13 +105,6 @@ IntuneLogReader/
 - **MainView**: Main application layout with NavigationSplitView
 - **WelcomeView**: Onboarding experience
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
